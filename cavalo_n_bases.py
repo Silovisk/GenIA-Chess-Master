@@ -32,7 +32,7 @@ def knights_tour(board_size, start_row, start_col):
     else:
         print("No solution found.")
 
-board_size = 7  # Tamanho do tabuleiro
+board_size = 8  # Tamanho do tabuleiro
 start_row = 3    # Posição inicial da linha
 start_col = 2    # Posição inicial da coluna
 knights_tour(board_size, start_row, start_col)
